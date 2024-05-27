@@ -1,0 +1,370 @@
+/* ----------------------------------------------------------------------------------------
+* Author        : dev.mahmudurrahman
+* Template Name : Comilla traders
+* File          : Comilla traders main CSS file
+* Version       : 2.0
+* ----------------------------------------------------------------------------------------*/
+
+
+
+/* Header Top Area */
+.header-top .navbar-left a {
+  margin: 0 15px;
+  color: #a9a9ab;
+  text-decoration: none;
+}
+.header-top-border {
+	border-bottom: 1px solid #d1d1d3;
+}
+.navbar-text {
+  margin: 5px 0 10px 0;
+}
+.navbar-text .phone {
+  -webkit-transform: rotate(95deg);
+     -moz-transform: rotate(95deg);
+      -ms-transform: rotate(95deg);
+       -o-transform: rotate(95deg);
+          transform: rotate(95deg);
+}
+.navbar-text i {
+  color: #dd6936;
+  padding: 10px;
+}
+.navbar-text.navbar-right a i {
+  color: #a9a9ab;
+}
+.navbar-text.navbar-left a:hover, .navbar-text.navbar-right a i:hover {
+  color: #dd6936;
+  transition: 0.5s;
+}
+.navbar-nav {
+	padding: 14px;
+}
+/* Header Nav Area */
+.navbar {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  transition: .5s;
+}
+.navbar .navbar-brand {
+  height: auto;
+}
+.navbar .navbar-nav li.active a {
+  color: #dd6936;
+  border-bottom: 2px solid #dd6936;
+  background-color: transparent;
+}
+.navbar .navbar-nav li.active a:hover {
+  background-color: transparent;
+  color: #dd6936;
+}
+.navbar .navbar-nav > li > a {
+  color: #9a9a9a;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  transition: .5s;
+  cursor: pointer;
+}
+@media (min-width: 995px) {
+  .navbar .navbar-nav > li > a {
+    margin: 20px 8px;
+  }
+}
+.navbar .navbar-nav > li > a:hover {
+  color: #dd6936;
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+  background-color: transparent;
+}
+.affix-top {
+  /* position: fixed; */
+  width: 100%;
+  background: transparent;
+  height: auto;
+  z-index: 150;
+  margin-bottom: 0;
+}
+.affix {
+  height: 90px;
+  width: 100%;
+  top: 0;
+  z-index: 150;
+  background-color: #fff;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+  transition: 1s;
+}
+.affix .navbar-brand {
+  width: 130px;
+}
+.affix .navbar-nav {
+  padding: 0;
+}
+.collapse > ul > li:hover .dropdown {
+  display: block;
+  text-decoration: none;
+}
+nav .navbar-nav li .modal {
+  right: -60%;
+  top: 20%;
+}
+.modal-backdrop {
+  z-index: 0;
+}
+.modal-backdrop.in {
+  opacity: 0;
+}
+
+/* BANNER */
+#banner {
+  background: url(..//images/contact.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  color: #fff;
+}
+#banner::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  background: rgba(135, 134, 130, 0.5);
+}
+.banner {
+  position: relative;
+  padding: 80px 0;
+}
+.banner h2 {
+  font-size: 30px;
+  margin-bottom: 75px;
+  font-weight: 600;
+}
+.banner h2::before {
+  content: '';
+  position: absolute;
+  top: 45%;
+  left: 0;
+  height: 2px;
+  width: 80px;
+  background: #dd6936;
+}
+.banner p {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+
+/* CONTACT MAIN */
+.contact-left {
+  padding: 60px 0;
+}
+.contact-left h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.contact-left p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.contact-left img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.contact-left i {
+  padding: 10px 0;
+  color: #dd6936;
+  text-decoration: none;
+}
+.contact-left i::before {
+  padding: 10px 10px 0 0;
+}
+.contact-left a {
+  text-decoration: none;
+}
+.contact-right {
+  padding: 60px 0;
+  margin-left: 50px;
+}
+.contact-right h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.contact-right .form input {
+  height: 30px;
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 0;
+  border: 1px solid #000;
+}
+.contact-right .form textarea {
+  border-radius: 0;
+  border: 1px solid #000;
+}
+.contact-right .form input:focus, .contact-right .form textarea:focus {
+  border-color: transparent;
+  box-shadow: none;
+  border: 1px solid #dd6936;
+  border-radius: 0;
+}
+.contact-right .form input#subject, .contact-right .form textarea#msg-box {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.contact-right .form label {
+  font-size: 16px;
+}
+.contact-right .form label sup {
+  color: red;
+}
+.contact-right .form textarea#msg-box {
+  height: 80px;
+}
+.contact-right .submit-btn {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 35px;
+  background: #dd6936;
+  border: 1px solid #dd6936;
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+      -ms-transition: all .4s ease-in-out;
+       -o-transition: all .4s ease-in-out;
+          transition: all .4s ease-in-out;
+}
+.contact-right .submit-btn:hover {
+  color: #000;
+  background: #fff;
+  border: 1px solid #dd6936;
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+      -ms-transition: all .4s ease-in-out;
+       -o-transition: all .4s ease-in-out;
+          transition: all .4s ease-in-out;
+}
+
+
+
+
+
+
+
+/* FOOTER */
+#footer-top {
+  background-color: #373038;
+  color: #ddd;
+  padding: 80px 0;
+}
+
+#footer-top .purchase {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 15px 25px;
+  margin: 50px auto;
+}
+#footer-top .purchase .navbar-text h2 {
+  color: #dd6936;
+}
+#footer-top .purchase a {
+  padding: 5px 15px;
+  color: #fff;
+  background-color: #DD6939;
+  margin-top: 35px;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+       -o-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+}
+#footer-top .purchase a:hover {
+  background-color: #fff;
+  color: #000;
+  -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+       -o-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+}
+#footer-top h4 {
+  margin: 0 0 30px 0;
+}
+#footer-top h4::before {
+  content: "";
+  position: absolute;
+  top: 8%;
+  left: 5%;
+  height: 2px;
+  width: 40px;
+  background: #514b52;
+}
+#footer-top img {
+  width: 60px;
+  height: 60px;
+}
+#footer-top a {
+  text-decoration: none;
+  color: #a9a9ab;
+  -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+       -o-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+}
+#footer-top a:hover {
+  color: #dd6936;
+  -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+       -o-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+}
+#footer-top button {
+  background-color: #272228;
+  color: #ddd;
+  padding: 8px;
+  margin: 5px;
+  font-size: 12px;
+  transition: .5s;
+}
+
+#footer-top button:hover {
+  background-color: #DD6939;
+}
+
+#footer-top i {
+  color: #DD6939;
+}
+
+#footer{
+  background-color: #302931;
+  color: #68686E;
+}
+
+#footer .navbar-left {
+    padding: 35px 0;
+    font-size: 16px;
+}
+
+#footer .navbar-left a {
+  color: #DD6939;
+  text-decoration: none;
+}
+
+#footer a i {
+  padding-top: 40px;
+  transition: 0.5s;
+}
+
+#topper a i {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  background-color: #DD6939;
+  color: #fff;
+  padding: 5px 7px;
+  border-radius: 50%;
+}
+.fa {
+  transition: .6s;
+}

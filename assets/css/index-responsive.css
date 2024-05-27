@@ -1,0 +1,88 @@
+@media (min-width: 769px) and (max-width: 992px) {
+  ul.nav.navbar-nav.navbar-right.text-capitalize {
+    margin-top: 2.5%;
+  }
+  .slide-text h1::before, .slide-text .slider-two::before {
+    top: 86px;
+  }
+  .slide-text h1 {
+    font-size: 25px;
+  }
+  .slide-text p {
+    font-size: 11px;
+    margin-bottom: 0;
+  }
+  .slide-text > a.btn-default, .slide-text > a.btn-primary {
+    padding: 10px 15px;
+    font-size: 11px;
+  }
+  #services .header::before {
+    top: 72%;
+  }
+  .services-item {
+    margin-top: 50px;
+  }
+  .text h3::before {
+    top: 30%;
+    left: 3%;
+  }
+  .button-group {
+    margin-top: 10px;
+  }
+  #portfolio h2 {
+    font-size: 25px;
+  }
+  #portfolio .divider::before {
+    top: 166%;
+    left: 9%;
+  }
+  .services-counter .section-header::before {
+    top: 242%;
+  }
+  #footer .navbar-left {
+    margin-left: 14%;
+  }
+  #footer .navbar-right {
+    margin-right: 26%;
+  }
+  .banner {
+    padding: 80px 30px;
+  }
+  .banner h2::before {
+    left: 4%;
+  }
+}
+
+
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .slide-text {
+    top: -5%;
+  }
+  .slide-text h1 {
+    font-size: 20px;
+  }
+  .slide-text p {
+    font-size: 10px;
+  }
+  .btn {
+    padding: 8px 20px !important;
+    font-size: 10px !important;  
+  }
+  div#filters {
+    margin-top: 20px;
+    font-size: 10px;
+  }
+  .slide-text h1::before {
+    left: 7%;
+  }
+
+  .banner {
+    padding: 80px 40px;
+  }
+  .banner h2::before {
+    left: 7%;
+  }
+}
